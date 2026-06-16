@@ -1,6 +1,6 @@
 {
-  "name": "CineHD Repository",
-  "description": "Custom CloudStream Extension for CineHD",
+  "name": "CineHD Repo",
+  "description": "CineHD extension for CloudStream",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/Muriithi254-maker/cinehd-cloudstream/main/plugins.json"
