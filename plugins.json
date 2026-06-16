@@ -1,14 +1,15 @@
 [
   {
     "name": "CineHD",
-    "authors": ["Muriithi254-maker"],
     "version": 1,
-    "description": "Stream from CineHD",
     "iconUrl": "https://cinehd.app/favicon.ico",
-    "url": "https://raw.githubusercontent.com/Muriithi254-maker/cinehd-cloudstream/main/plugins.json",
+    "url": "https://cinehd.app",
+    "lang": "en",
     "type": "jsonstream",
-    "tvTypes": ["movie", "tvSeries"],
-    "language": "en",
+    "tvTypes": [
+      "movie",
+      "tvSeries"
+    ],
     "data": {
       "mainUrl": "https://cinehd.app",
       "searchUrl": "https://cinehd.app/?s=%s",
