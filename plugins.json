@@ -1,0 +1,10 @@
+[
+  {
+    "name": "CineHD",
+    "url": "https://raw.githubusercontent.com/Muriithi254-maker/cinehd-cloudstream/main/src/CineHD.js",
+    "version": 1,
+    "iconUrl": "https://cinehd.app/favicon.ico",
+    "lang": "en",
+    "type": "javascript"
+  }
+]
