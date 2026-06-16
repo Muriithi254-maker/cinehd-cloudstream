@@ -1,10 +1,31 @@
 [
   {
     "name": "CineHD",
-    "url": "https://raw.githubusercontent.com/Muriithi254-maker/cinehd-cloudstream/main/src/CineHD.js",
     "version": 1,
     "iconUrl": "https://cinehd.app/favicon.ico",
     "lang": "en",
-    "type": "jsonstream"
+    "type": "jsonstream",
+    "movieurl": "https://cinehd.app",
+    "searchUrl": "https://cinehd.app/?s={query}",
+    "extractor": {
+      "home": {
+        "query": ".post-item, .card, .entry-title a",
+        "title": "text",
+        "url": "href",
+        "poster": "img src"
+      },
+      "search": {
+        "query": ".search-result, .card, .entry-title a",
+        "title": "text",
+        "url": "href",
+        "poster": "img src"
+      },
+      "details": {
+        "title": ".movie-title, h1.entry-title",
+        "description": ".description, .entry-content p",
+        "poster": ".poster img, .wp-post-image",
+        "videoEmbed": "iframe src"
+      }
+    }
   }
 ]
